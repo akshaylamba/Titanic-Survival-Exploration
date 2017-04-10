@@ -142,3 +142,5 @@ def predictions_3(data):
 predictions3 = predictions_3(data)
 
 print accuracy_score(outcomes, predictions3)
+
+from sklearn.model_selection import train_test_split
